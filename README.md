@@ -9,7 +9,6 @@ export ip=10.10.208.204
 ```json
 run nmap scan on machine using -sC -sV 
 ```
-
 ```nmap -sC -sV -oN nmap/initial 10.10.208.204
 ```
 
