@@ -46,8 +46,10 @@ robots.txt
 
 and it seems using cat is disabled
 we need to find a way around that
+
 lets try using "nl Sup3rS3cretPickl3Ingred.txt"
 "mr. meeseek hair"
+
 perfect
 ```
 # 1. What is the first ingredient Rick needs?
@@ -57,6 +59,7 @@ answer: mr. meeseek hair
 ```
 lets see what clue.txt is
 "Look around the file system for the other ingredient."
+
 it looks like we can only run one liners however using the ; sign we can run multiple commands in one line
 
 if we view the page source it looks like we have a base64 encoded string lets decode it
@@ -82,7 +85,7 @@ we find our second ingredient
 answer: 1 jerry tear
 ```
 ```
-im going to assume the last ingredient is probably in /root or needs root access so lets upgrade our shell so we can privesc to root
+im going to assume the last ingredient is probably in /root or needs root access because the last flag is usually always in root and a root shell in general is always better so lets upgrade our shell so we can privesc to root
 ```
 ```json
 python3 -c 'import pty; pty.spawn("/bin/bash")'
