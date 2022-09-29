@@ -36,7 +36,7 @@ answer: ssh
 # 3. What's the CVE you're using against the application? 
 
 ```
-searched for exploits against the web servers host template version (2.2.8) and found CVE-2019-9053
+searched for exploits against the web servers host template version (2.2.8) which is usually found at the bootom of websites and found CVE-2019-9053
 ```
 
 ```
