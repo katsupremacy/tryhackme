@@ -1,7 +1,9 @@
 # TryHackMe Guides and Info
 
 ```
-these are rooms that i have completed and wrote extensive notes and uploaded the files i used and/or obtained
+these are folders of try hack me rooms that i have completed and wrote (sometimes) extensive notes 
+as well as my thought processon them.
+i also upload the files i used and/or obtained from the room.
 ```
 ```
 This repo is not meant to spoil the rooms but more for 
