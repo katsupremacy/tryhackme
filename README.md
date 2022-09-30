@@ -12,7 +12,7 @@ This repo is not meant to spoil the rooms but more for
 learning and to help when the pentester gets stuck
 ```
 ```json
-keep in mind i have kept the answers in the guides like the flags or question answers
+!fair warning! i have kept the answers in the guides
 ```
 ```
 thanks for checking the repo out
