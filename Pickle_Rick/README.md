@@ -7,6 +7,7 @@ export ip=10.10.58.138
 ```
 first step is to always run the nmap scans
 
+```json
 nmap -p 0-9999 -oN scans/nmap_high_ports $ip
 nmap -sC -sV -oN scans/nmap_normal $ip
 ```
