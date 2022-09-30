@@ -1,7 +1,5 @@
 # Pickle Rick
 
-||daddy||
-
 ```json
 export ip=10.10.58.138
 ```
