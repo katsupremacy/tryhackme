@@ -29,7 +29,9 @@ we will use -p 0-9999 to specify scan ports from 0 to 9999 in nmap
 nmap -p 0-9999 -oN nmap/all_ports 10.10.208.204
 ```
 ```
-I ftp into 10.10.208.204 and found ForMitch.txt and grabbed it to my host using get
+since ftp is running lets see what the server has for us
+ftp 10.10.208.204 
+we find ForMitch.txt and grabbed it to my host system using "get ForMitch.txt"
 ```
 
 ```
