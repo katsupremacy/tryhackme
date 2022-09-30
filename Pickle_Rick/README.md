@@ -18,13 +18,15 @@ looks like we have apache [80](webserver), ftp [21] and ssh [2222]running
 we can see theres a robots.txt file which contains
 "Wubbalubbadubdub" possibly a password?
 ```
+
+
 ```
 always run gobuster after seeing apache is running and open
 ```
-
 ```json
 gobuster dir -u http://$ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt +x php,sh,txt,cgi,html,js,css,py
 ```
+
 
 ```
 if we view the page source of the webserver we can see rick has left a username for us
@@ -32,6 +34,8 @@ if we view the page source of the webserver we can see rick has left a username 
 
     Username: R1ckRul3s"
 ```
+
+
 ```
 if we go to /login.php we can try the username and password we possibly found
 great it worked and it looks like we can execute commands from here
