@@ -4,6 +4,8 @@
 these are folders of try hack me rooms that i have completed and wrote (sometimes) extensive notes 
 as well as my thought processon them.
 i also upload the files i used and/or obtained from the room.
+if there is no gobuster/nmap scans logs in the folder, then they must have either failed
+or been useless. I will cover what the scans show in the readme
 ```
 ```
 This repo is not meant to spoil the rooms but more for 
