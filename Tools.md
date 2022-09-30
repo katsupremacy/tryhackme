@@ -6,23 +6,23 @@ tools that are required for every box and is essential to have on your attacker 
 keep in mind that some are defualt on some distros like kali
 ```
 ```
-- [] nmap 
+- [x] nmap 
 
-- [] nc (netcat)
+- [x] nc (netcat)
 
-- [] gobuster
+- [x] gobuster
 
-- [] exiftool
+- [x] exiftool
 
-- [] msfvenom/console
+- [x] msfvenom/console
 
-- [] python3 
+- [x] python3 
 
-- [] text editor like sublime
+- [x] text editor like sublime
 
-- [] wireshark
+- [x] wireshark
 
-- [] SQLMap and MySQL
+- [x] SQLMap and MySQL
 
 
 Constantly Updating
