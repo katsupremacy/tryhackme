@@ -78,13 +78,12 @@ answer: secret
 ```
 
 # 6. Where can you login with the details obtained?
-
-```
-answer: ssh
-```
 ```json
 ssh mitch@$ip 
 password is secret
+```
+```
+answer: ssh
 ```
 
 # 7. What's the user flag?
