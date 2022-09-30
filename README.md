@@ -1,4 +1,4 @@
-# TryHackMe Guides and Info
+# TryHackMe Guides and Files 
 
 ```
 these are folders of try hack me rooms that i have completed and wrote (sometimes) extensive notes 
