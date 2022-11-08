@@ -41,7 +41,7 @@ As always lets upgrade our shell to a fully interactive one using python as this
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 ```
-Now for enerumation i usually run "sudo -L" first and then search for SUID'S in linux boxes however this machine doesnt allow sudo -L and didnt have any suid's for us to exploit.
+Now for enerumation i usually run "sudo -l" first and then search for SUID'S in linux boxes however this machine doesnt allow sudo -L and didnt have any suid's for us to exploit.
 ```
 ```
 So after searching extensively through the box, I located the password in the /var/www/html/fuel/application/config/database.php
